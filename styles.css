@@ -140,6 +140,14 @@ body {
   background-color: black;
 }
 
+@media (max-width: 768px) {
+  .divider {
+    width: 100%;
+    height: 8px;
+    margin: 20px 0;
+  }
+}
+
 .book-button {
   color: #F5F5F5;
   background-color: black;
@@ -461,3 +469,4 @@ button:hover {
 .footer p:hover {
   opacity: 1;
 }
+
